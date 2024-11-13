@@ -1,5 +1,5 @@
-const { Telegraf } = require('telegraf');
-const ytdl = require('ytdl-core');
+import { Telegraf } from 'telegraf';
+import ytdl from'ytdl-core';
 
 const bot = new Telegraf('7062487698:AAE4B4ZuVDBMGC1WKzm-052hg2HqoZMePzc');
 
